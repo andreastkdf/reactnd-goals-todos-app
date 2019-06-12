@@ -18,3 +18,7 @@ npm start
 Because this is a code-along project and the commits correspond to specific videos in the program, we will not be accepting pull requests.
 
 If you feel like there's a major problem, please open an issue to discuss the problem and potential resolution.
+
+## Create React App
+
+This project was bootstrapped with [Create React App](https://github.com/facebookincubator/create-react-app)
