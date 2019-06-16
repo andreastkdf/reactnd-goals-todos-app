@@ -1,10 +1,10 @@
-import { combineReducer } from "redux"
+import { combineReducers } from "redux"
 
 import todos from "./todos"
 import loading from "./loading"
 import goals from "./goals"
 
-export default Redux.combineReducers({
+export default combineReducers({
   todos,
   goals,
   loading

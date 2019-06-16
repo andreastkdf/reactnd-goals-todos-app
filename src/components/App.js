@@ -11,8 +11,6 @@ class App extends React.Component {
     dispatch(handleInitialData())
   }
   render() {
-    const { store } = this.props
-
     if (this.props.loading === true) {
       return <h3>Loading...</h3>
     }
