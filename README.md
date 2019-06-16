@@ -22,7 +22,7 @@ sudo apt-get update && sudo apt-get install yarn
 * Windows : 
 [Installation page](https://yarnpkg.com/lang/en/docs/install/#windows-stable)
 
-## Start MyReads
+## Start To-Do Goals App
 ```bash
 cd MyReads
 yarn install
