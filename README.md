@@ -1,17 +1,32 @@
-# To-Do Goals App Project
+# To-Do Goals App Training Project
+# Training : Learning React & Redux
 This repo is a code-along project for the React & Redux Course of the React Nanodegree program.
 
 Most of the commits in this repository correspond to videos in the program.
 
 ## Project Setup
 
-- Install the dependencies 
-```bash
-npm install
+### Install [yarn](https://yarnpkg.com):  
+* macOS : 
+
+```bash 
+brew install yarn
 ```
-- Start the app 
+* Linux : 
 ```bash
-npm start
+curl -sS https://dl.yarnpkg.com/debian/pubkey.gpg | sudo apt-key add -
+echo "deb https://dl.yarnpkg.com/debian/ stable main" | sudo tee /etc/apt/sources.list.d/yarn.list
+
+sudo apt-get update && sudo apt-get install yarn
+```
+* Windows : 
+[Installation page](https://yarnpkg.com/lang/en/docs/install/#windows-stable)
+
+## Start MyReads
+```bash
+cd MyReads
+yarn install
+yarn start
 ```
 
 ### Contributing
