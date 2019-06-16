@@ -24,7 +24,7 @@ sudo apt-get update && sudo apt-get install yarn
 
 ## Start To-Do Goals App
 ```bash
-cd MyReads
+cd reactnd-goals-todos-app
 yarn install
 yarn start
 ```
